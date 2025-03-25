@@ -34,18 +34,17 @@ Rare diseases affect fewer than 200,000 individuals in the United States, with s
 
 ```
 Jaber-Valinejad/
-├── Analysis/               <- Code and notebooks for various analyses
-├── AuraDB/                <- Configs or scripts for AuraDB setup or integration
-├── Data/                  <- Datasets and preprocessed data
-├── Docs/                  <- Documentation, drafts, or notes
-├── Figs/                  <- Figures and visualizations
-├── LLM/                   <- Scripts or notebooks for working with large language models
-├── Neo4j/                 <- Graph database queries, data models, or Cypher scripts
-├── Dockerfile             <- Docker configuration for environment setup
-├── LICENSE                <- Repository license
-├── README.md              <- Project overview (You are here!)
-├── Report.md              <- Detailed report or documentation
-└── requirements-dev.txt   <- Development environment dependencies
+├── Data/                              <- Raw and processed datasets (excluded from Git if large)
+├── Docs/                              <- Documentation files, references, or supporting notes
+├── Figs/                              <- Plots, diagrams, or other visualizations used in the report or documentation
+├── Methods/                           <- Methodology descriptions, scripts, or notebooks
+├── Dockerfile                         <- Docker configuration to build a reproducible environment
+├── LICENSE                            <- License for usage and distribution
+├── README.md                         <- Project overview, instructions, and structure (You are here!)
+├── Report.md                          <- Detailed project report or deliverable
+├── env_setup.md                       <- Instructions for setting up the local development environment
+├── neo4j_docker_quickstart.md         <- Quickstart guide for running Neo4j with Docker
+├── requirements-dev.txt               <- Python dependencies for development and testing
 ```
 
 
